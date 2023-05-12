@@ -55,12 +55,14 @@ public class SqlHelper {
 
     @SneakyThrows
     public static String getCreditEntity() {
-        try (val conn = getConn();
-             val countStmt = conn.createStatement()) {
-            val creditStatus = "SELECT status FROM credit_request_entity ORDER BY created DESC LIMIT 1;";
-            val resultSet = countStmt.executeQuery(creditStatus);
-            if (resultSet.next()) {
-                return resultSet.getString("status");
+        try (val conn = getConn()) {
+            assert conn != null;
+            try (val countStmt = conn.createStatement()) {
+                val creditStatus = "SELECT status FROM credit_request_entity ORDER BY created DESC LIMIT 1;";
+                val resultSet = countStmt.executeQuery(creditStatus);
+                if (resultSet.next()) {
+                    return resultSet.getString("status");
+                }
             }
         } catch (SQLException err) {
             err.printStackTrace();

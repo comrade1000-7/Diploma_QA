@@ -119,7 +119,7 @@ public class CreditCardTest {
     }
 
     @Test
-    @DisplayName("Отравка пустой формы")
+    @DisplayName("Отправка пустой формы")
     void shouldNotSendEmptyForm() {
         val creditCardPage = dashboardPage.payByCreditCard();
         val emptyForm = DataHelper.getEmptyCardInfo();
