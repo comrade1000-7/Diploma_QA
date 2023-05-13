@@ -16,13 +16,14 @@
 - успешных - 20 (52,63%)
 - неуспешных - 18 (47,36%)
 - 
-![postgress](<img width="1284" alt="image" src="https://github.com/comrade1000-7/Diploma_QA/assets/106644171/813e6525-55a8-46ac-b934-57f4a0f409c6">)
+![postgresql](https://github.com/comrade1000-7/Diploma_QA/assets/106644171/34026ff0-8789-42c6-be23-53a93b0f3cd5)
 
 **MySQL:**
 - успешных - 20 (52,63%)
 - неуспешных - 18 (47,36%)
 
-![mysql](https://ibb.co/6Pswww7)
+![sql](https://github.com/comrade1000-7/Diploma_QA/assets/106644171/7c154a77-3683-4ff8-a0e1-59b5d4ef02c6)
+
 
 
 
