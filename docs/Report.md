@@ -16,7 +16,7 @@
 - успешных - 20 (52,63%)
 - неуспешных - 18 (47,36%)
 - 
-![postgress](https://ibb.co/1G2QpWH)
+![postgress](<img width="1284" alt="image" src="https://github.com/comrade1000-7/Diploma_QA/assets/106644171/813e6525-55a8-46ac-b934-57f4a0f409c6">)
 
 **MySQL:**
 - успешных - 20 (52,63%)
